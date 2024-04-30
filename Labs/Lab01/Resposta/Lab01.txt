@@ -1,0 +1,9 @@
+Revisão
+1. Como uma classe obtém uma abstração do mundo real?
+    - Ela abstrai simplificando os aspectos presentes na vida real e concentrando-se somente no que é essencial para a aplicação do programa.
+
+2. Qual a relação entre uma classe e um objeto?
+    - A classe serve como um molde que contem todas as caracteristicas de seus objetos e seus comportamentos. Já o objeto é a instancia da classe, é o que vai ser construido a partir de seu molde.
+
+3. De que formas as funções na abordagem orientada a objetos são diferentes das funções na programação estruturada?
+    - Na POO, as funções não precisam indicar sobre qual dados elas devem agir, pois sempre agiram em cima dos atributos da classe.
