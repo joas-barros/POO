@@ -1,0 +1,7 @@
+Revisão
+1. Qual a semelhança entre as classes e os tipos primitivos em C++?
+    - A um tipo é associado uma representação e um conjunto de operações, semelhante aos tipos, as classes possuem metodos e atributos
+2. Como uma classe obtém encapsulamento e ocultação de dados?
+    - Declarando-os como private, somente os metodos dentro da classe podem acessar os atributos.
+3. De que forma os métodos ajudam a manter a integridade dos atributos?
+    - Os métodos definem como os atributos podem ser manipulados, e somente através deles que os atributos podem ser acessados, portanto eles mantem a integridade dos atributos definindo regras claras de como manipulá-los.
