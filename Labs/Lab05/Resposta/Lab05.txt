@@ -1,0 +1,14 @@
+REVISÂO
+1 - Em que momento os construtores são chamados?
+    - Eles são chamados na criação do objeto
+2 - O que é um construtor padrão? Qual a sua finalidade?
+    - Um construtor padrão é aquele que cria um objeto quando nenhum dos atributos é inicializado, ele serve para atibuir valores padrões aos atributos de modo que não seja necessario passa-los pelo teclado.
+3 - Escreva todas as 8 diferentes formas de criar um objeto para o construtor:
+    - Jogo j;
+    - Jogo j();
+    - Jogo j = {};
+    - Jogo j = Jogo();
+    - Jogo gears = Jogo("Gears", 50.00f);
+    - Jogo gears("Gears", 50.00f);
+    - Jogo gears = {"Gears", 50.00f}; 
+    - Jogo gears {"Gears", 50.00f};  
