@@ -1,0 +1,7 @@
+REVISÂO
+1 - Para que serve o operador de resolução de escopo?
+    - Para definir a classe a qual pertence o método
+2 - Em que locais o operador de resolução de escopo não deve ser usado?
+    - Quando o corpo da função é definido dentro do escopo da classe.
+3 - Existem duas formas de criar um método inline em C++. Quais são elas?
+    - Definindo o método dentro do escopo da classe ele por padrão é criado como inline. Fora isso, pode tambem criar a função fora do escopo da classe o definindo como inline.
