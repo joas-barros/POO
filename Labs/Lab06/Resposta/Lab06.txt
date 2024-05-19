@@ -1,0 +1,8 @@
+REVISÂO
+
+1 - Em que momento os destrutores são chamados?
+    - Eles são chamados após o fim do ciclo de vida do objeto craido.
+2 - É sempre necessário criar um destrutor? O que acontece se não criarmos?
+    - Não é sempre necessario criar um destrutor, pois caso ele não seja criado, irá ser criado um destrutor padrão que irá destruir o objeto no fim de sua vida.
+3 - Para que servem os destrutores?
+    - Para desalocar a memória alocada na criação do objetivo, caso nessa construção seja alocado memoria dinamicamente ou seja aberto um arquivo voce pode realizar o fechamento e desalocação no destrutor.
