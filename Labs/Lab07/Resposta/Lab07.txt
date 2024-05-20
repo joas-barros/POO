@@ -1,0 +1,11 @@
+REVISÂO
+
+1 - Para que serve o ponteiro this?
+    - O ponteiro this serve para apontar para uma referencia para o endereço do próprio objeto.
+2 - Qual a diferença entre this e *this?
+    - this retorna o endereço, *this retorna o conteúdo.
+3 - Qual o tipo do ponteiro this nos métodos abaixo?
+    a) void Jogo::atualizar(float valor);
+	- *Jogo
+    b) void Jogo::exibir() const;
+	- const * Jogo
