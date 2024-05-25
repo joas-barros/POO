@@ -1,0 +1,11 @@
+REVISÂO
+
+1 - Quais são as principais características de um TAD?
+    - Armazenam dados
+    - Fornacem operações
+    - Abstraem detalhes de implementação
+    - Podem ser usados com qualquer tipo de dado
+2 - Como criar constantes para definir o tamanho de membros de uma classe?
+    - Pode ser definida tanto como um enum, quanto como constante estatica
+3 - Como criar constantes que serão usadas apenas dentro de métodos da classe?
+    - Podem ser criadas como constantes normais
