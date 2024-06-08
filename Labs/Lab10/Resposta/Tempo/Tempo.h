@@ -13,10 +13,11 @@ public:
 
     Tempo operator+(const Tempo& t) const;                     // t + t : soma tempos
     Tempo operator+(int num) const;                            // t + n : soma tempo e número
+    ostream& operator>>(ostream& os);
 
-    friend Tempo operator+(int num, const Tempo& t);            // n + t : soma número e tempo
-    friend istream & operator>>(istream& is, Tempo& t);         // is >> t : leitura com cin
-    friend ostream& operator<<(ostream& os, Tempo& t);          // os << t : escrita com cout
+    friend Tempo operator+(int num, const Tempo& t);           // n + t : soma número e tempo
+    friend istream& operator>>(istream& is, Tempo& t);         // is >> t : leitura com cin
+    friend ostream& operator<<(ostream& os, const Tempo& t);   // os << t : escrita com cout
+    friend ostream& operator>>(const Tempo& t, ostream& os);   // t >> os : escrita com cout
 };
-
 
