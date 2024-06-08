@@ -16,4 +16,5 @@ public:
 	bool Vazia() const;
 	bool Cheia() const;
 	bool Adicionar(const Item& item);
+	Item operator[](int index);
 };

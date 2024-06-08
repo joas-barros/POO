@@ -37,3 +37,16 @@ bool Lista::Adicionar(const Item& item)
 	}
 }
 
+Item Lista::operator[](int index)
+{
+	if (index < size) {
+		return itens[index];
+	}
+	else {
+		cout << "Nenhum elemento no índice "
+			<< index
+			<< ": ";
+		return 0;
+	}
+}
+
